@@ -100,7 +100,7 @@ require('lazy').setup({
       'folke/lazydev.nvim',
       ft = 'lua',
       dependencies = {
-        { 'justinsgithub/wezterm-types', lazy = true },
+        { 'DrKJeff16/wezterm-types', lazy = true },
       },
       opts = {
         library = {
@@ -123,7 +123,7 @@ require('lazy').setup({
     ft = 'lua',
     dependencies = {
       {
-        'justinsgithub/wezterm-types',
+        'DrKJeff16/wezterm-types',
         name = '<my_custom_name>', -- CUSTOM DIRECTORY NAME
         lazy = true,
       },

@@ -148,7 +148,7 @@ The project is structured the following way:
 ├── events/  <==  Events type files
 │   ├── gui.lua  <==  `Gui` event types
 │   ├── multiplexer.lua  <==  `Mux` event types
-│   ├── window.lua  <==  `Window` event types
+│   └── window.lua  <==  `Window` event types
 ├── objects.lua  <==  Imports all the `objects/` files
 ├── objects/  <==  Objects type files
 │   ├── color.lua  <==  `Color` object types
@@ -166,7 +166,7 @@ The project is structured the following way:
 │   ├── tls-domain-client.lua  <==  `TlsDomainClient` object types
 │   ├── tls-domain-server.lua  <==  `TlsDomainServer` object types
 │   ├── window.lua  <==  `Window` object types
-│   ├── wsl-domain.lua  <==  `WslDomain` object types
+│   └── wsl-domain.lua  <==  `WslDomain` object types
 ├── wezterm.lua  <==  Imports all the surrounding files, including the `wezterm/` directory
 ├── wezterm/  <==  Types for the `wezterm` module
 │   ├── color.lua  <==  `Wezterm.Color` module types

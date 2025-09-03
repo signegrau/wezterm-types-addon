@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/LuaLS/LLS-Addons/main/schemas/addon_config.schema.json",
+    "name": "Wezterm types",
+    "words": [
+        "wezterm",
+        "require[%s%(\"']+wezterm[%)\"']"
+    ],
+    "files": [
+        "wezterm.lua"
+    ],
+    "settings:": {
+        "Lua.runtime.version": "Lua 5.4"
+    }
+}
